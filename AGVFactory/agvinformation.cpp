@@ -68,7 +68,7 @@ void AgvInformation::initTree()
       QString middlecharge=chargelimit.at(1);
       QString lowcharge=chargelimit.at(2);
      int xiansudu=0;
-     int jiaosudu=0;
+     int jiaosudu=0;//
      int a=0;
      int w=0;
           itemFolder = new QStandardItem(m_publicIconMap[QStringLiteral("treeItem_folder")],QStringLiteral("%1").arg(id));
