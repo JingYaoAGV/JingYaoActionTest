@@ -1,0 +1,35 @@
+16:09::45 [init] AGV: 1 ÔÚÏß
+16:09::45 [init] Mac: 
+16:09::45 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+16:09::51 [recv]agv=1 Initialization: InitialPoint=1
+16:09::54 [recv]agv=1 Initialization: InitialPoint=1
+16:09::57 [recv]agv=1 Initialization: InitialPoint=1
+16:10::08 [send]agv=1 send path command: C1 number=1,start=1 end=1 ×ó¹Õ  length 0 angle 0
+16:10::08 [send]agv=1 send path command: C2 number=0,start=0 end=0   length 0 angle 0
+16:10::08 [recv]Communication_ComandFinish: number:1,
+16:10::08 [recv]Communication_Send Answer: number_1:1,number_2:0
+16:10::08 [recv] agv=1,Send Path Answer:number_1=1,number_2=1
+16:10::10 [recv]Communication_ComandFinish: number:1,
+16:10::10 [recv]agv=1 Path Command Finish: C1 number=1 start=1 end=1 ×ó¹Õ   length 0 angle 0
+16:10::10 [send]agv=1%,ComandFinish Answer: number:1,
+16:10::15 [send]agv=1 send path command: C1 number=2,start=1 end=1 ÓÒ¹Õ  length 0 angle 0
+16:10::15 [send]agv=1 send path command: C2 number=0,start=0 end=0   length 0 angle 0
+16:10::15 [recv]Communication_Send Answer: number_1:2,number_2:0
+16:10::15 [recv] agv=1,Send Path Answer:number_1=2,number_2=2
+16:10::18 [recv]Communication_ComandFinish: number:2,
+16:10::18 [recv]agv=1 Path Command Finish: C1 number=2 start=1 end=1 ÓÒ¹Õ   length 0 angle 0
+16:10::18 [send]agv=1%,ComandFinish Answer: number:2,
+16:10::20 [send]agv=1 send path command: C1 number=3,start=1 end=1 ×ó¹Õ  length 0 angle 0
+16:10::20 [send]agv=1 send path command: C2 number=0,start=0 end=0   length 0 angle 0
+16:10::20 [recv]Communication_Send Answer: number_1:3,number_2:0
+16:10::20 [recv] agv=1,Send Path Answer:number_1=3,number_2=3
+16:10::22 [recv]Communication_ComandFinish: number:3,
+16:10::22 [recv]agv=1 Path Command Finish: C1 number=3 start=1 end=1 ×ó¹Õ   length 0 angle 0
+16:10::22 [send]agv=1%,ComandFinish Answer: number:3,
+16:10::25 [send]agv=1 send path command: C1 number=4,start=1 end=1 ÓÒ¹Õ  length 0 angle 0
+16:10::25 [send]agv=1 send path command: C2 number=0,start=0 end=0   length 0 angle 0
+16:10::25 [recv]Communication_Send Answer: number_1:4,number_2:0
+16:10::25 [recv] agv=1,Send Path Answer:number_1=4,number_2=4
+16:10::26 [recv]Communication_ComandFinish: number:4,
+16:10::26 [recv]agv=1 Path Command Finish: C1 number=4 start=1 end=1 ÓÒ¹Õ   length 0 angle 0
+16:10::26 [send]agv=1%,ComandFinish Answer: number:4,
